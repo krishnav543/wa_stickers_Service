@@ -8,7 +8,7 @@ const StickerPack = require("../models/StickerPack");
 const {
   addStickerToPack,
   removeSticker,
-} = require("../services/stickerService");
+} = require("../services/StickerService");
 const swagger = require("../config/swagger");
 const requireAdminKey = require("../middleware/requireAdminKey");
 
